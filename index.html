@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Erik Oussoren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images\pixelbeanpink.ico">
+
+
+    <style>
+      body {
+        background: linear-gradient(rgba(12, 2, 15, 0.7), rgba(12, 2, 15, 0.7)),
+        url(images/pattern_bean.png);
+        background-size: 400px;
+        background-position: 50%;
+        background-color: black;
+        margin:0px;
+
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
+
+      body::-webkit-scrollbar {display: none;}
+
+      p {margin: 0px;}
+
+      img {max-width: 100%; max-height: 100%}
+
+      .header 
+      {
+        display:grid;
+      }
+      .headercontent {
+        grid-area: 1/1;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top:60px;
+        margin:0px;
+      }
+
+      .headerbg {
+        grid-area: 1/1;
+        display: flex;
+        background-color:rgba(12, 2, 22, 0.967);
+        width: 100%;
+        height: 275px;
+      }
+  
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+
+      }
+
+
+      .block {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+      }
+
+      .title { 
+        color: #E0C2C2 ;
+        font-family: "Staatliches", sans-serif;
+        font-weight: 600;
+        font-size: 64px;
+        letter-spacing: 14%;
+        
+        line-height: 75%;
+        padding-top: 18px;
+        padding-left: 10px;
+      }
+
+      .text {
+        display:flex;
+        justify-content: center;
+        color:#E8C1F0;
+        font-family: "Urbanist", sans-serif;
+        font-weight: 300;
+        font-size: 32px;
+        word-spacing: 30px;
+        margin: 20px;
+      }
+
+      .desc-small {
+        display:flex;
+        justify-content: flex-end;
+        padding-right: 60px;
+        color:#7F374A;
+        font-family: "PT Serif", serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 20px;
+        letter-spacing: 50%;
+
+      }
+
+      .links {
+        display:flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: auto;
+        gap: 26px;
+        padding-bottom: -50px;
+      }
+
+      .links > a {max-width: 42px;}
+    
+      .link{
+        color:#E0C2C2;
+      }
+
+      .content{
+        height: 4000px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="headerbg"></div>
+      <div class="headercontent">
+        <img class="logo" src="images\pixelbean_white.png">
+        <div class="block">
+          <p class="title"> ERIK OUSSOREN. </p>
+          <p class="desc-small"> Ow - Sore - Un </p>
+          <p class="text"> GameDev Design UX </p>
+
+          <div class="links">
+            <a href="https://www.linkedin.com/in/erik-oussoren/" target="_blank">
+              <img class="link" src="images/icons/icon_linkedin.png">
+            </a>
+            <a href="https://github.com/ErikOus" target="_blank">
+              <img class="link" src="images/icons/icon_github.png">
+            </a>
+            <a href="https://erikou.itch.io/" target="_blank">
+              <img class="link" src="images/icons/icon_itch.png">
+            </a>
+            <a href="https://bsky.app/profile/erikoussoren.bsky.social" target="_blank">
+              <img class="link" src="images/icons/Icon_Bluesky.png">
+            </a>
+          </div>
+        </div>
+      </div>     
+
+    </div>
+
+    <div class="content">
+    </div>
+
+    <div class="footer">
+      <div class="text">
+      All Projects
+      </div>
+    </div>
+    
+  </body>
+
+</html>
